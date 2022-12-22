@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sofia&display=swap">
+        <script src="./script.js" defer></script>
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                TIC TAC TOE
+            </div>
+            <div class="main">
+                <button class="start">PLAY</button>
+                <dialog class="playerCreation">
+                    <form action="#">
+                        <fieldset>
+                            <legend>NAME</legend>
+                            <label for="p1-name">Player 1: </label>
+                            <input type="text" id="p1-name" name="p1-name" required>
+                            <label for="p2-name">Player 2: </label>
+                            <input type="text" id="p2-name" name="p2-name" required>
+                        </fieldset>
+                        <fieldset>
+                            <legend>SIGN</legend>
+                            <label for="p1-sign">Player 1: </label>
+                            <input type="text" id="p1-sign" name="p1-sign" required>
+                            <label for="p2-name">Player 2: </label>
+                            <input type="text" id="p2-sign" name="p2-sign" required>
+                        </fieldset>
+                        <button class="submit">LET'S GO!!!!!</button>
+                    </form>
+                    <button class="close">CLOSE</button>
+                </dialog>
+            </div>
+        </div>
+    </body>
+</html>
