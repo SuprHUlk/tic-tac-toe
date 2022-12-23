@@ -17,26 +17,47 @@
             <div class="main">
                 <button class="start">PLAY</button>
                 <dialog class="playerCreation">
-                    <form action="#">
-                        <fieldset>
-                            <legend>NAME</legend>
-                            <label for="p1-name">Player 1: </label>
-                            <input type="text" id="p1-name" name="p1-name" required>
-                            <label for="p2-name">Player 2: </label>
-                            <input type="text" id="p2-name" name="p2-name" required>
-                        </fieldset>
-                        <fieldset>
-                            <legend>SIGN</legend>
-                            <label for="p1-sign">Player 1: </label>
-                            <input type="text" id="p1-sign" name="p1-sign" required>
-                            <label for="p2-name">Player 2: </label>
-                            <input type="text" id="p2-sign" name="p2-sign" required>
-                        </fieldset>
-                        <button class="submit">LET'S GO!!!!!</button>
-                    </form>
-                    <button class="close">CLOSE</button>
+                    <div class="form">
+                        <form action="#">
+                            <fieldset>
+                                <legend>NAME</legend>
+                                <label for="p1-name">Player 1: </label>
+                                <input type="text" id="p1-name" name="p1-name" required>
+                                <label for="p2-name">Player 2: </label>
+                                <input type="text" id="p2-name" name="p2-name" required>
+                            </fieldset>
+                            <fieldset>
+                                <legend>SIGN</legend>
+                                <label for="p1-sign">Player 1: </label>
+                                <input type="text" id="p1-sign" name="p1-sign" required>
+                                <label for="p2-name">Player 2: </label>
+                                <input type="text" id="p2-sign" name="p2-sign" required>
+                            </fieldset>
+                            <div class="btn"><button class="submit" type="button">LET'S GO!!!!!</button></div>
+                        </form>
+                    </div>
+                    <div class="btn"><button class="close">CLOSE</button></div>
                 </dialog>
+                <div class="content">
+                    <div class="player-info">
+                        <div class="player-1">
+                            <h1></h1>
+                            <div class="name"></div>
+                            <div class="sign"></div>
+                        </div>
+                        <div class="player-2">
+                            <h1></h1>
+                            <div class="name"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h1></h1>
+                        <h2></h2>
+                    </div>
+                </div>
             </div>
+            <div class="footer">Made by SuprHUlk</div>
         </div>
     </body>
 </html>
