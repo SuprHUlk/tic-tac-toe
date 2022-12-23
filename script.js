@@ -151,9 +151,11 @@ function appendSign() {
         let flag=resultChecker.check();
         if(flag==player1.getSign) {
             document.querySelector(".result h2").textContent=player1.getName+" won";
+            restart();
         }
         else if(flag==player2.getSign) {;
             document.querySelector(".result h2").textContent=player2.getName+" won";
+            restart();
         }
     }
 }
